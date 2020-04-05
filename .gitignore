@@ -28,6 +28,7 @@ mvnw.cmd
 /nbdist/
 /.nb-gradle/
 build/
+/Users/quyuantao/SoftWare/apache-maven-3.6.2/resp/
 
 ### VS Code ###
 .vscode/
