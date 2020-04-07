@@ -1,4 +1,4 @@
-package com.geek.foobar.java3y.camp.problem;
+package com.geek.foobar.threadtool;
 
 /**
  * https://www.javazhiyin.com/29272.html

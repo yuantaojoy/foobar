@@ -1,4 +1,4 @@
-package com.geek.foobar.java3y.camp.problem;
+package com.geek.foobar.threadtool;
 
 /**
  * @author 曲元涛
