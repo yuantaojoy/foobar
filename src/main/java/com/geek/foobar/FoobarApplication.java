@@ -11,14 +11,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2020/4/2 20:12
  */
 @SpringBootApplication
-public class FoobarApplication implements CommandLineRunner {
+public class FoobarApplication{
 
 	public static void main(String[] args) {
 		SpringApplication.run(FoobarApplication.class, args);
-	}
-
-	@Override
-	public void run(String... args) throws Exception {
-		System.out.println("Hello FooBar");
 	}
 }
