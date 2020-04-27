@@ -4,8 +4,11 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="petStore" class="spring.framework.core.ioc.service.PetStoreServiceImpl">
+    <bean name="petStoreService, ps" class="spring.framework.core.ioc.service.PetStoreServiceImpl">
         <property name="accountDao" ref="accountDao"/>
         <property name="itemDao" ref="itemDao"/>
     </bean>
+
+    <alias name="ps" alias="ps_1"/>
+    <alias name="ps" alias="ps_2"/>
 </beans>
